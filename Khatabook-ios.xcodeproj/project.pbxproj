@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08BA094C24F5FCB000386BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA094B24F5FCB000386BA1 /* AppDelegate.swift */; };
+		08BA094E24F5FCB000386BA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA094D24F5FCB000386BA1 /* SceneDelegate.swift */; };
+		08BA095024F5FCB000386BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA094F24F5FCB000386BA1 /* ViewController.swift */; };
+		08BA095324F5FCB000386BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BA095124F5FCB000386BA1 /* Main.storyboard */; };
+		08BA095524F5FCB200386BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BA095424F5FCB200386BA1 /* Assets.xcassets */; };
+		08BA095824F5FCB200386BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BA095624F5FCB200386BA1 /* LaunchScreen.storyboard */; };
+		08BA096324F5FCB200386BA1 /* Khatabook_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA096224F5FCB200386BA1 /* Khatabook_iosTests.swift */; };
+		08BA096E24F5FCB200386BA1 /* Khatabook_iosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA096D24F5FCB200386BA1 /* Khatabook_iosUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		08BA095F24F5FCB200386BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08BA094024F5FCB000386BA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BA094724F5FCB000386BA1;
+			remoteInfo = "Khatabook-ios";
+		};
+		08BA096A24F5FCB200386BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 08BA094024F5FCB000386BA1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 08BA094724F5FCB000386BA1;
+			remoteInfo = "Khatabook-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08BA094824F5FCB000386BA1 /* Khatabook-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khatabook-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BA094B24F5FCB000386BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		08BA094D24F5FCB000386BA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		08BA094F24F5FCB000386BA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		08BA095224F5FCB000386BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		08BA095424F5FCB200386BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		08BA095724F5FCB200386BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		08BA095924F5FCB200386BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BA095E24F5FCB200386BA1 /* Khatabook-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khatabook-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BA096224F5FCB200386BA1 /* Khatabook_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khatabook_iosTests.swift; sourceTree = "<group>"; };
+		08BA096424F5FCB200386BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08BA096924F5FCB200386BA1 /* Khatabook-iosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Khatabook-iosUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		08BA096D24F5FCB200386BA1 /* Khatabook_iosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Khatabook_iosUITests.swift; sourceTree = "<group>"; };
+		08BA096F24F5FCB300386BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		08BA094524F5FCB000386BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BA095B24F5FCB200386BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BA096624F5FCB200386BA1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08BA093F24F5FCB000386BA1 = {
+			isa = PBXGroup;
+			children = (
+				08BA094A24F5FCB000386BA1 /* Khatabook-ios */,
+				08BA096124F5FCB200386BA1 /* Khatabook-iosTests */,
+				08BA096C24F5FCB200386BA1 /* Khatabook-iosUITests */,
+				08BA094924F5FCB000386BA1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		08BA094924F5FCB000386BA1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				08BA094824F5FCB000386BA1 /* Khatabook-ios.app */,
+				08BA095E24F5FCB200386BA1 /* Khatabook-iosTests.xctest */,
+				08BA096924F5FCB200386BA1 /* Khatabook-iosUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		08BA094A24F5FCB000386BA1 /* Khatabook-ios */ = {
+			isa = PBXGroup;
+			children = (
+				08BA094B24F5FCB000386BA1 /* AppDelegate.swift */,
+				08BA094D24F5FCB000386BA1 /* SceneDelegate.swift */,
+				08BA094F24F5FCB000386BA1 /* ViewController.swift */,
+				08BA095124F5FCB000386BA1 /* Main.storyboard */,
+				08BA095424F5FCB200386BA1 /* Assets.xcassets */,
+				08BA095624F5FCB200386BA1 /* LaunchScreen.storyboard */,
+				08BA095924F5FCB200386BA1 /* Info.plist */,
+			);
+			path = "Khatabook-ios";
+			sourceTree = "<group>";
+		};
+		08BA096124F5FCB200386BA1 /* Khatabook-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				08BA096224F5FCB200386BA1 /* Khatabook_iosTests.swift */,
+				08BA096424F5FCB200386BA1 /* Info.plist */,
+			);
+			path = "Khatabook-iosTests";
+			sourceTree = "<group>";
+		};
+		08BA096C24F5FCB200386BA1 /* Khatabook-iosUITests */ = {
+			isa = PBXGroup;
+			children = (
+				08BA096D24F5FCB200386BA1 /* Khatabook_iosUITests.swift */,
+				08BA096F24F5FCB300386BA1 /* Info.plist */,
+			);
+			path = "Khatabook-iosUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		08BA094724F5FCB000386BA1 /* Khatabook-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BA097224F5FCB300386BA1 /* Build configuration list for PBXNativeTarget "Khatabook-ios" */;
+			buildPhases = (
+				08BA094424F5FCB000386BA1 /* Sources */,
+				08BA094524F5FCB000386BA1 /* Frameworks */,
+				08BA094624F5FCB000386BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Khatabook-ios";
+			productName = "Khatabook-ios";
+			productReference = 08BA094824F5FCB000386BA1 /* Khatabook-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		08BA095D24F5FCB200386BA1 /* Khatabook-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BA097524F5FCB300386BA1 /* Build configuration list for PBXNativeTarget "Khatabook-iosTests" */;
+			buildPhases = (
+				08BA095A24F5FCB200386BA1 /* Sources */,
+				08BA095B24F5FCB200386BA1 /* Frameworks */,
+				08BA095C24F5FCB200386BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08BA096024F5FCB200386BA1 /* PBXTargetDependency */,
+			);
+			name = "Khatabook-iosTests";
+			productName = "Khatabook-iosTests";
+			productReference = 08BA095E24F5FCB200386BA1 /* Khatabook-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		08BA096824F5FCB200386BA1 /* Khatabook-iosUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 08BA097824F5FCB300386BA1 /* Build configuration list for PBXNativeTarget "Khatabook-iosUITests" */;
+			buildPhases = (
+				08BA096524F5FCB200386BA1 /* Sources */,
+				08BA096624F5FCB200386BA1 /* Frameworks */,
+				08BA096724F5FCB200386BA1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				08BA096B24F5FCB200386BA1 /* PBXTargetDependency */,
+			);
+			name = "Khatabook-iosUITests";
+			productName = "Khatabook-iosUITests";
+			productReference = 08BA096924F5FCB200386BA1 /* Khatabook-iosUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		08BA094024F5FCB000386BA1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Vikram Singh";
+				TargetAttributes = {
+					08BA094724F5FCB000386BA1 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					08BA095D24F5FCB200386BA1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 08BA094724F5FCB000386BA1;
+					};
+					08BA096824F5FCB200386BA1 = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 08BA094724F5FCB000386BA1;
+					};
+				};
+			};
+			buildConfigurationList = 08BA094324F5FCB000386BA1 /* Build configuration list for PBXProject "Khatabook-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 08BA093F24F5FCB000386BA1;
+			productRefGroup = 08BA094924F5FCB000386BA1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				08BA094724F5FCB000386BA1 /* Khatabook-ios */,
+				08BA095D24F5FCB200386BA1 /* Khatabook-iosTests */,
+				08BA096824F5FCB200386BA1 /* Khatabook-iosUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		08BA094624F5FCB000386BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BA095824F5FCB200386BA1 /* LaunchScreen.storyboard in Resources */,
+				08BA095524F5FCB200386BA1 /* Assets.xcassets in Resources */,
+				08BA095324F5FCB000386BA1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BA095C24F5FCB200386BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BA096724F5FCB200386BA1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08BA094424F5FCB000386BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BA095024F5FCB000386BA1 /* ViewController.swift in Sources */,
+				08BA094C24F5FCB000386BA1 /* AppDelegate.swift in Sources */,
+				08BA094E24F5FCB000386BA1 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BA095A24F5FCB200386BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BA096324F5FCB200386BA1 /* Khatabook_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		08BA096524F5FCB200386BA1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08BA096E24F5FCB200386BA1 /* Khatabook_iosUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		08BA096024F5FCB200386BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08BA094724F5FCB000386BA1 /* Khatabook-ios */;
+			targetProxy = 08BA095F24F5FCB200386BA1 /* PBXContainerItemProxy */;
+		};
+		08BA096B24F5FCB200386BA1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 08BA094724F5FCB000386BA1 /* Khatabook-ios */;
+			targetProxy = 08BA096A24F5FCB200386BA1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		08BA095124F5FCB000386BA1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BA095224F5FCB000386BA1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		08BA095624F5FCB200386BA1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				08BA095724F5FCB200386BA1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		08BA097024F5FCB300386BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		08BA097124F5FCB300386BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		08BA097324F5FCB300386BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M45344JR46;
+				INFOPLIST_FILE = "Khatabook-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reprator.Khatabook-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		08BA097424F5FCB300386BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M45344JR46;
+				INFOPLIST_FILE = "Khatabook-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reprator.Khatabook-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		08BA097624F5FCB300386BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M45344JR46;
+				INFOPLIST_FILE = "Khatabook-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reprator.Khatabook-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khatabook-ios.app/Khatabook-ios";
+			};
+			name = Debug;
+		};
+		08BA097724F5FCB300386BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M45344JR46;
+				INFOPLIST_FILE = "Khatabook-iosTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reprator.Khatabook-iosTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Khatabook-ios.app/Khatabook-ios";
+			};
+			name = Release;
+		};
+		08BA097924F5FCB300386BA1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M45344JR46;
+				INFOPLIST_FILE = "Khatabook-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reprator.Khatabook-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Khatabook-ios";
+			};
+			name = Debug;
+		};
+		08BA097A24F5FCB300386BA1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M45344JR46;
+				INFOPLIST_FILE = "Khatabook-iosUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "reprator.Khatabook-iosUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Khatabook-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		08BA094324F5FCB000386BA1 /* Build configuration list for PBXProject "Khatabook-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BA097024F5FCB300386BA1 /* Debug */,
+				08BA097124F5FCB300386BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BA097224F5FCB300386BA1 /* Build configuration list for PBXNativeTarget "Khatabook-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BA097324F5FCB300386BA1 /* Debug */,
+				08BA097424F5FCB300386BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BA097524F5FCB300386BA1 /* Build configuration list for PBXNativeTarget "Khatabook-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BA097624F5FCB300386BA1 /* Debug */,
+				08BA097724F5FCB300386BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		08BA097824F5FCB300386BA1 /* Build configuration list for PBXNativeTarget "Khatabook-iosUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				08BA097924F5FCB300386BA1 /* Debug */,
+				08BA097A24F5FCB300386BA1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 08BA094024F5FCB000386BA1 /* Project object */;
+}
