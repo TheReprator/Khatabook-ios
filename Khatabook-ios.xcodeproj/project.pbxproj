@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		085C03B824F7248000F7030E /* ErrorAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 085C03B724F7248000F7030E /* ErrorAlert.swift */; };
 		08B6200324F6F9E400BEB202 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B6200224F6F9E400BEB202 /* LoginController.swift */; };
 		08BA094C24F5FCB000386BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA094B24F5FCB000386BA1 /* AppDelegate.swift */; };
 		08BA094E24F5FCB000386BA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA094D24F5FCB000386BA1 /* SceneDelegate.swift */; };
@@ -34,6 +35,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		085C03B724F7248000F7030E /* ErrorAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorAlert.swift; sourceTree = "<group>"; };
 		08B6200224F6F9E400BEB202 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		08BA094824F5FCB000386BA1 /* Khatabook-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khatabook-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BA094B24F5FCB000386BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				08BA095624F5FCB200386BA1 /* LaunchScreen.storyboard */,
 				08BA095924F5FCB200386BA1 /* Info.plist */,
 				08B6200224F6F9E400BEB202 /* LoginController.swift */,
+				085C03B724F7248000F7030E /* ErrorAlert.swift */,
 			);
 			path = "Khatabook-ios";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				08B6200324F6F9E400BEB202 /* LoginController.swift in Sources */,
+				085C03B824F7248000F7030E /* ErrorAlert.swift in Sources */,
 				08BA094C24F5FCB000386BA1 /* AppDelegate.swift in Sources */,
 				08BA094E24F5FCB000386BA1 /* SceneDelegate.swift in Sources */,
 			);
