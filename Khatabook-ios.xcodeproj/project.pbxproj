@@ -7,10 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08B6200324F6F9E400BEB202 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08B6200224F6F9E400BEB202 /* LoginController.swift */; };
 		08BA094C24F5FCB000386BA1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA094B24F5FCB000386BA1 /* AppDelegate.swift */; };
 		08BA094E24F5FCB000386BA1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA094D24F5FCB000386BA1 /* SceneDelegate.swift */; };
-		08BA095024F5FCB000386BA1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA094F24F5FCB000386BA1 /* ViewController.swift */; };
-		08BA095324F5FCB000386BA1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BA095124F5FCB000386BA1 /* Main.storyboard */; };
 		08BA095524F5FCB200386BA1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08BA095424F5FCB200386BA1 /* Assets.xcassets */; };
 		08BA095824F5FCB200386BA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BA095624F5FCB200386BA1 /* LaunchScreen.storyboard */; };
 		08BA096324F5FCB200386BA1 /* Khatabook_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08BA096224F5FCB200386BA1 /* Khatabook_iosTests.swift */; };
@@ -35,11 +34,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		08B6200224F6F9E400BEB202 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		08BA094824F5FCB000386BA1 /* Khatabook-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Khatabook-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		08BA094B24F5FCB000386BA1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		08BA094D24F5FCB000386BA1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		08BA094F24F5FCB000386BA1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		08BA095224F5FCB000386BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		08BA095424F5FCB200386BA1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08BA095724F5FCB200386BA1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08BA095924F5FCB200386BA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -101,11 +99,10 @@
 			children = (
 				08BA094B24F5FCB000386BA1 /* AppDelegate.swift */,
 				08BA094D24F5FCB000386BA1 /* SceneDelegate.swift */,
-				08BA094F24F5FCB000386BA1 /* ViewController.swift */,
-				08BA095124F5FCB000386BA1 /* Main.storyboard */,
 				08BA095424F5FCB200386BA1 /* Assets.xcassets */,
 				08BA095624F5FCB200386BA1 /* LaunchScreen.storyboard */,
 				08BA095924F5FCB200386BA1 /* Info.plist */,
+				08B6200224F6F9E400BEB202 /* LoginController.swift */,
 			);
 			path = "Khatabook-ios";
 			sourceTree = "<group>";
@@ -234,7 +231,6 @@
 			files = (
 				08BA095824F5FCB200386BA1 /* LaunchScreen.storyboard in Resources */,
 				08BA095524F5FCB200386BA1 /* Assets.xcassets in Resources */,
-				08BA095324F5FCB000386BA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08BA095024F5FCB000386BA1 /* ViewController.swift in Sources */,
+				08B6200324F6F9E400BEB202 /* LoginController.swift in Sources */,
 				08BA094C24F5FCB000386BA1 /* AppDelegate.swift in Sources */,
 				08BA094E24F5FCB000386BA1 /* SceneDelegate.swift in Sources */,
 			);
@@ -297,14 +293,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		08BA095124F5FCB000386BA1 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				08BA095224F5FCB000386BA1 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		08BA095624F5FCB200386BA1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
